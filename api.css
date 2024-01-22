@@ -1,0 +1,65 @@
+body{
+    background-color: #014955;
+}
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.fa{
+    color: whitesmoke;
+}
+#container{
+    width: 80%;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 1% 1%;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 10% ;
+    top: 130px;
+}
+input{
+    border-radius: 50px 0;
+    border-color: whitesmoke;
+    color: white;
+    background-color: transparent;
+    padding-left: 2%;
+    width: 37%;
+    height: 3%;
+}
+::placeholder{
+    color: white;
+    padding-left: 2%;
+}
+#current-location{
+    position: absolute;
+    top: 45px;
+    left: 10%;
+}
+#destination{
+    position: absolute;
+    top: 45px;
+    left: 50%;
+}
+button{
+    border-radius: 10px ;
+    color: #014955;
+    background-color: whitesmoke;
+    border-color: whitesmoke ;
+    font-weight: bold;
+    
+}
+#btn{
+    position: absolute;
+    top: 95px;
+    left: 10%;
+    width: 20%;
+}
+#crl_btn{
+    position: absolute;
+    top: 95px;
+    left: 34%;
+    width: 50%;
+}
